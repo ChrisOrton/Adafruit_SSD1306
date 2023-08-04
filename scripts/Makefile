@@ -26,6 +26,7 @@ splash.h: make_splash.py splash1.png splash2.png
 	echo "$$HEADER" > $@
 	${PY} make_splash.py splash1.png splash1 >>$@
 	${PY} make_splash.py splash2.png splash2 >>$@
+	${PY} make_splash.py splash3.png splash3 >>$@
 	echo "$$FOOTER" >> $@
 
 clean:
