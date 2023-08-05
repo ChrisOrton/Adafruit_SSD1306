@@ -506,8 +506,8 @@ bool Adafruit_SSD1306::begin(uint8_t vcs, uint8_t addr, bool reset,
                splash2_data, splash2_width, splash2_height, 1);
   } else {
     // new image here
-    drawBitmap(splash2_width/2,splash2_height/2,
-               splash2_data, splash2_width, splash2_height, 1);
+    drawBitmap(splash3_width/2,splash3_height/2,
+               splash3_data, splash3_width, splash3_height, 1);
   }
 #endif
 
